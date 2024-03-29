@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "natnetpy"
+version = "0.1.0"
+description = ""
+authors = ["takumi-nishimura <clp13218@nitech.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
