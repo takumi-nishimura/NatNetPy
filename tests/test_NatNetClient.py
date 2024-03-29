@@ -7,7 +7,7 @@ from natnetpy.NatNetClient import OptiClient
 
 fps = 240
 opti_client = OptiClient(
-    server_address="133.68.108.109", client_address="133.68.108.74"
+    server_address="127.0.0.1", client_address="127.0.0.1"
 )
 
 init_pose = None
