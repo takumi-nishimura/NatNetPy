@@ -8,7 +8,7 @@ poetry add git+ssh://git@github.com:takumi-nishimura/NatNetPy.git
 ```
 ## Usage
 ```python
-from natnetpy.NatNetClient import OptiClient
+from natnetpy import OptiClient
 
 opti_client = OptiClient(
     server_address="127.0.0.1", client_address="127.0.0.1"
